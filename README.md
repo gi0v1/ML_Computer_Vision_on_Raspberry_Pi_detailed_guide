@@ -16,4 +16,7 @@ IF YOU HAVE ANY SUGGESTIONS, THINK SOMETHING IS WRONG, ECC. PLEASE LET ME KNOW.
 ## HARDWARE
 First of all we need to set up our PC and our Raspberry Pi. I'm using a Windows laptop, Linux would be even better, I've never used macOS and I don't know what might be different anyway the OS will be covered later. As I'm writing I'm using a Pi 3B+ and while it can work, something more powerful, like a Pi 4, is definitely recommnded (I'm waiting for a Pi 5 to ship).
 
+## SOFTWARE
+Given that Linux is the best choice for this kind of things I would either recommend to use a Linux system or if you use Windows, to install ![WSL2](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux) (Windows Subsystem for Linux 2) as I've done following ![this guide](https://learn.microsoft.com/en-us/windows/wsl/install)
+
 
