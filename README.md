@@ -31,6 +31,7 @@ The project started with a Pi 4, then mid-development the Pi 5 came out. Below t
 If you want to perform real-time object detection, you'll likely need a camera, I would recomend the Raspberry Pi Camera Module 3 (Wide if you need) for image quality and ease of use.
 <br/>
 Of course you'll need to power your Pi, the recomended way to do that is throught the official power supply but you can use a battery as well.
+<br/>
 ATTENTION ⚠️: if you choose the latter be careful to provide the Pi with the correct voltage (the PS outputs 5.1V but 5.0V are OK). Small variations may well kill the Pi, I mistakenly provided one with 5.95V, it is now hanged on a wall as a ornament.
 <br/>
 ## RASPBERRY PI CONFIGURATION
