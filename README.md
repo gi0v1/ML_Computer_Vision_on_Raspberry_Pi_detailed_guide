@@ -45,7 +45,7 @@ Where it is technically possible to do the entire process on the Pi given that i
 There are 2 main approaches you can use instead:
 - Method #1: code on a PC and deploy on the Pi afterwards
 - Method #2: connect the PC to the Pi and code remotely (👑)
-<br/>
+
 ### Method #1
 The Pi runs a specific 
 Given that Linux is the best choice for this kind of things I would either recommend to use a Linux system or if you use Windows, to install [WSL2](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux) (Windows Subsystem for Linux 2) as I've done following [this guide](https://learn.microsoft.com/en-us/windows/wsl/install)
