@@ -12,6 +12,7 @@ The guide is based on the code from the listed repositories:
 - https://github.com/gpego/arduino-serial-com
 - https://github.com/gpego/Python-serial-com
 - https://github.com/gpego/newCode
+
 They're quite messy 😅, that's why I'm trying to put all toghether in this guide.
 
 ## DISCLAIMER
