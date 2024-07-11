@@ -44,7 +44,7 @@ Where it is technically possible to do the entire process on the Pi given that i
 <br/>
 There are 2 main approaches you can use instead:
 - Method #1: code on a PC and deploy on the Pi afterwards
-- Method #2: connect the PC to the Pi and code remotely (👑)
+- Method #2: connect the PC to the Pi and code remotely (👑)  
 
 ### Method #1
 The Pi runs a specific 
