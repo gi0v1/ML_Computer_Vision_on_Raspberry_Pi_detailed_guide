@@ -38,16 +38,21 @@ ATTENTION ⚠️: if you choose the latter be careful to provide the Pi with the
 First of all you'll have to flash the OS onto your microSD card. The [Raspberry Pi OS](https://www.raspberrypi.com/software/) is higly recomended, it is the official Debian distro of the Raspberry Pi Foundation.
 The Pi can be connected to actual peripherals but for this application I found it convenient to use it *headless* which means to connect to the Pi using a client device (your PC), basically what you'd do with AnyDesk or TeamViewer.
 To read more about the topic and configure a headless Raspebrry Pi I'd recomend [this article](https://www.tomshardware.com/reviews/raspberry-pi-headless-setup-how-to,6028.html) from Tom's Hardware.
+Please note that the Raspberry Pi Foundation is currently developing *Raspberry Pi Connect* a proprietary tool to make this process easier and more reliable. I haven't tried it yet, it is in open beta so you can try it out. You can read more about it at [this page](https://www.raspberrypi.com/software/connect/).
 <br/>
 ## DEVELOPMENT SETUP
 Where it is technically possible to do the entire process on the Pi given that it is by all means a PC, I wouldn't recomend it beacuse it can be laggish and unpractical.
 <br/>
 There are 2 main approaches you can use instead:
 - Method #1: code on a PC and deploy on the Pi afterwards
-- Method #2: connect the PC to the Pi and code remotely (👑)  
+- Method #2: connect the PC to the Pi and code remotely (👑)
 
 ### Method #1
-The Pi runs a specific 
-Given that Linux is the best choice for this kind of things I would either recommend to use a Linux system or if you use Windows, to install [WSL2](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux) (Windows Subsystem for Linux 2) as I've done following [this guide](https://learn.microsoft.com/en-us/windows/wsl/install)
+According to me this method is not always optimal beacuse it requires you to sync the code between two devices. The main problem comes when you code on a machine and need to test the code on the Pi (beacuse you need that specific camera, have some connected devices which you need to use, ...). That's beacuse it is an annoying and time consuming process: syncronization isn't immediate and you'll need to switch from a device to the other each time.
+As we saw the Pi runs a Linux distro, therefore the software has to be Linux-compatible. Unfortunately the code we're going to make is not platform-agnostic, indeed there are some differences between Windows and Linux (I don't know what's the case for mac). Therefore you'll need to either modify the software each time you move it from one machine to the other or simply use Linux. The latter is the best option.
+You actually have several alternatives here:
+- A native Linux system: either dual-boot or Linux-only
+- A virtual machine
+- WSL 2 (Windows only): you can read more about WSL 2 [here](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux). If you want to install it I've followe [this guide](https://learn.microsoft.com/en-us/windows/wsl/install). An optional problem with WSL is that you don't have access to the webcam of the PC and its video stream.
 
-
+## ⚠️WORK IN PROGRESS!!⚠️
