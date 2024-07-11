@@ -37,12 +37,13 @@ ATTENTION ⚠️: if you choose the latter be careful to provide the Pi with the
 
 ## RASPBERRY PI CONFIGURATION
 First of all you'll have to flash the OS onto your microSD card. The [Raspberry Pi OS](https://www.raspberrypi.com/software/) is higly recomended, it is the official Debian distro of the Raspberry Pi Foundation.
-The Pi can be connected to actual peripherals but for this application I found it convenient to use it *headless* which basically means to 
+The Pi can be connected to actual peripherals but for this application I found it convenient to use it *headless* which means to connect to the Pi using a client device (your PC), basically what you'd do with AnyDesk or TeamViewer.
+To read more about the topic and configure a headless Raspebrry Pi I'd recomend [this article](https://www.tomshardware.com/reviews/raspberry-pi-headless-setup-how-to,6028.html) from Tom's Hardware.
 
-## SOFTWARE
+## DEVELOPMENT SETUP
 Where it is technically possible to do the entire process on the Pi given that it is by all means a PC, I wouldn't recomend it beacuse it can be laggish and unpractical.
 
-There are 2 main approaches:
+There are 2 main approaches you can use instead:
 - Method #1: code on a PC and deploy on the Pi afterwards
 - Method #2: connect the PC to the Pi and code remotely (👑)
 
