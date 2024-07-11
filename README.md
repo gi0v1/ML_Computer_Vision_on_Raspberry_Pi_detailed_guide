@@ -1,5 +1,5 @@
 # ML_Computer_Vision_on_Raspberry_Pi_guide
-### Step-by-step guide to build and deploy a ML object detection (and later object tracking) model on a Raspberry Pi
+### Step-by-step guide implement ML object detection (and later object tracking) on a Raspberry Pi
 
 # BACKGROUND
 I've been part of a RoboCup (Rescue Line) team and among my task was the development of a software which had to identify and track some balls, so that the robot could pick them.
