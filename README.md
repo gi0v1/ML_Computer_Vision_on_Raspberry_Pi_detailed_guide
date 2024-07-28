@@ -17,7 +17,7 @@ In this guide I'm trying to organize the code from the following repositories:
 
 They're quite messy 😅, that's why I'm trying to put all toghether in this guide.
 
-You can find the final version of the object detction software here:
+You can find the final version of the object detection software here:
 
 https://github.com/gpego/robot1/tree/main/tflite/tflite2/dev
 <br/>
