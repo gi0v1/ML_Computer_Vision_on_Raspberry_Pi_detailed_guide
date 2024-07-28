@@ -11,15 +11,15 @@ In this guide I'll try to explain my journey and to cover how to train a TensorF
 In this guide I'm trying to organize the code from the following repositories:
 - https://github.com/gpego/robot1
 - https://github.com/gpego/tflite
-- https://github.com/gpego/arduino-serial-com
-- https://github.com/gpego/Python-serial-com
 - https://github.com/gpego/newCode
 
 They're quite messy 😅, that's why I'm trying to put all toghether in this guide.
 
 You can find the final version of the object detection software here:
 
-https://github.com/gpego/robot1/tree/main/tflite/tflite2/dev
+- https://github.com/gpego/robot1/tree/main/tflite/tflite2/dev
+- https://github.com/gpego/arduino-serial-com
+- https://github.com/gpego/Python-serial-com
 
 If you are interested in RoboCup you can also have a look at the line following software here:
 
