@@ -17,13 +17,13 @@ They're quite messy 😅, that's why I'm trying to put all toghether in this gui
 
 You can find the final version of the object detection software here:
 
-- https://github.com/gpego/robot1/tree/main/tflite/tflite2/dev
-- https://github.com/gpego/arduino-serial-com
-- https://github.com/gpego/Python-serial-com
+https://github.com/gpego/robot1/tree/main/tflite/tflite2/dev
 
 If you are interested in RoboCup you can also have a look at the line following software here:
 
-https://github.com/gpego/lineFollowing
+- https://github.com/gpego/lineFollowing
+- https://github.com/gpego/arduino-serial-com
+- https://github.com/gpego/Python-serial-com
 <br/>
 ## DISCLAIMER
 I'm not by any mean an expert in this field therefore there might be some errors in the following instructions and I would like to apologize in advance. Anyway I'll write only after having had things working so following the guide you should be able to have something working. I'm not a native English speaker either so there may be some errors on that side too.
