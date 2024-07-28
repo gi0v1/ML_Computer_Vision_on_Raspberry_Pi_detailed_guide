@@ -6,6 +6,8 @@
 I've been part of a RoboCup (Rescue Line) team and among my task was the development of a software which had to identify and track some balls, so that the robot could pick them.
 
 In this guide I'll try to explain my journey and to cover how to train a TensorFlow Lite ML model with your own dataset and then deploy it on a Raspberry Pi.
+
+Now I'd like to share what I've learned, hopefully someone will find it helpful.
 <br/>
 ## REPOS
 In this guide I'm trying to organize the code from the following repositories:
