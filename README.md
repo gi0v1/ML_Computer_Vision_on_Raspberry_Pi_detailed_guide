@@ -90,3 +90,4 @@ I used VSCode since I find it easy-to-use and straightforward and I don't need s
 
 
 ## ⚠️WORK IN PROGRESS!!⚠️
+As you can see this guide is currently under development.
