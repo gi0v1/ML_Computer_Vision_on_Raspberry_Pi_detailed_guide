@@ -79,5 +79,9 @@ You actually have several alternatives here:
 - A virtual machine
 - WSL 2 (Windows only): you can read more about WSL 2 [here](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux). If you want to install it I've followe [this guide](https://learn.microsoft.com/en-us/windows/wsl/install). An optional problem with WSL is that you don't have access to the webcam of the PC and its video stream.
 
+After you've setted up your code environment you'll need to syncronize the files between the two devices. We've started using [Syncthing](https://en.wikipedia.org/wiki/Syncthing) but it turned out to be a bit annoying. You have to wait quite a bit for the files to syncronize (~ 10/20 sec) and it is not-so-straightforward to setup and use. By the way if you want to discover more I'd reccoment [this guide](https://pimylifeup.com/raspberry-pi-syncthing/) from PiMyLifeUp.
+
+The best way to syncronize files is throw GitHub, it works better that Syncthing, we found it to be faster and more straightforward, plus you'd need it anyway. The use of GitHub will be covered in another section since it will be helpful regardless of the method you choose to set up your environment.
+
 
 ## ⚠️WORK IN PROGRESS!!⚠️
