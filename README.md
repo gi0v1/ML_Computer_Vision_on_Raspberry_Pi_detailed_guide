@@ -86,7 +86,7 @@ The best way to syncronize files is throw GitHub, it works better that Syncthing
 ### Method #2
 IDEs allows you to connect to remote hosts where the code is physically stored and run basically using your PC as a terminal. It may seem similar to screen mirroring but the process is quite different. Indeed it works thanks to SSH (the one you used setting up the headless Pi), in this way it isn't needed to send an entire frame of pixels several times a second. Text (which is much lighter) is sent instead and the IDE on the client (aka your PC) handles the GUI part. In this way you're seamlessly coding on the Pi by remaining on your PC, where you can access all the tools you want that might be unpractical in the Pi (where web surfing itself is quite slow).
 
-I used VSCode since I find it easy-to-use and straightforward and I don't need super fancy features you may find elsewhere. Anyway other IDEs (e.g. Pycharm from JetBrains) support this feature. You can follow [this guide](https://code.visualstudio.com/docs/remote/ssh-tutorial) from Microsoft to set up a remote SSH connection in VSCode.
+I used VSCode since I find it easy-to-use and straightforward and I don't need super fancy features you may find elsewhere. Anyway other IDEs (e.g. Pycharm from JetBrains) support this feature as well. You can follow [this guide](https://code.visualstudio.com/docs/remote/ssh-tutorial) from Microsoft to set up a remote SSH connection in VSCode.
 
 
 ## ⚠️WORK IN PROGRESS!!⚠️
