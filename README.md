@@ -21,7 +21,7 @@ You can find the final version of the object detection software here:
 
 https://github.com/gpego/robot1/tree/main/tflite/tflite2/dev
 
-If you are interested in RoboCup you can also have a look at the line following software here:
+If you are interested in RoboCup (Rescue Line) you can also have a look at the line following software here:
 
 - https://github.com/gpego/lineFollowing
 - https://github.com/gpego/arduino-serial-com
