@@ -73,7 +73,7 @@ According to me this method is not always optimal beacuse it requires you to syn
 
 As we saw the Pi runs a Linux distro, therefore the software has to be Linux-compatible. Unfortunately the code we're going to make is not platform-agnostic, indeed there are some differences between Windows and Linux (I don't know what's the case for mac). Therefore you'll need to either modify the software each time you move it from one machine to the other or simply use Linux. The latter is the best option.
 
-You actually have several alternatives here:
+You actually have several alternatives:
 
 - A native Linux system: either dual-boot or Linux-only
 - A virtual machine
