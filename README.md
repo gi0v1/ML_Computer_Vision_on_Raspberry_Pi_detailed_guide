@@ -42,7 +42,7 @@ The project started with a Pi 4, then mid-development the Pi 5 came out. Below t
 - Pi 4: started with that, if you already have one it's ok (I've tried the 2GB and 4GB), in real-time applications I was able to get ~10fps
 - Pi 5 (👑): if you have to buy a Pi, buy this one (I've got the 8GB but the 4GB should be absolutely fine), definitely worth it. Works well in real time and it's also nicer during the development process
 
-If you want to perform real-time object detection, you'll likely need a camera, I would recomend the Raspberry Pi Camera Module 3 (Wide if you need) for image quality and ease of use.
+If you want to perform real-time object detection, you'll likely need a camera, I would recomend the Raspberry Pi Camera Module 3 (Wide if you need) for its image quality and ease of use.
 
 
 Of course you'll need to power your Pi, the recomended way to do that is throught the official power supply but you can use a battery as well.
