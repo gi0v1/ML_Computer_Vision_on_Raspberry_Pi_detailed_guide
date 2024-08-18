@@ -28,7 +28,7 @@ If you are interested in RoboCup (Rescue Line) you can also have a look at the l
 - https://github.com/gpego/Python-serial-com
 <br/>
 ## DISCLAIMER
-I'm not by any mean an expert in this field therefore there might be some errors in the following instructions and I would like to apologize in advance. Anyway I'll write only after having had things working so following the guide you should be able to have something working. I'm not a native English speaker either so there may be some errors on that side too.
+I'm definitely not an expert in this field therefore there might be some errors in the following instructions and I would like to apologize in advance. Anyway I'll write only after having had things working so following the guide you should be able to have something working. I'm not a native English speaker either so there may be some errors on that side too.
 
 IF YOU HAVE ANY SUGGESTIONS, THINK SOMETHING IS WRONG, ECC. PLEASE LET ME KNOW.
 <br/>
